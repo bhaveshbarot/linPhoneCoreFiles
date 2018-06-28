@@ -1,0 +1,11 @@
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/install/local.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/rebuild_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/edit_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/linphonetester.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/msx264.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/list_install_components.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/mssilk.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/install.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/msamr.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/mscodec2.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/dummy_libraries/CMakeFiles/msopenh264.dir

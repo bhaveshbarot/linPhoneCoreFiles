@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libbzrtp.a  CMakeFiles/bzrtp-static.dir/bzrtp.c.o CMakeFiles/bzrtp-static.dir/cryptoUtils.c.o CMakeFiles/bzrtp-static.dir/packetParser.c.o CMakeFiles/bzrtp-static.dir/pgpwords.c.o CMakeFiles/bzrtp-static.dir/stateMachine.c.o CMakeFiles/bzrtp-static.dir/zidCache.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libbzrtp.a

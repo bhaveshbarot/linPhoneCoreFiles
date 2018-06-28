@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_xerces"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_xerces.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_xerces-complete.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_xerces/EP_xerces-install.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_xerces/EP_xerces-mkdir.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_xerces/EP_xerces-download.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_xerces/EP_xerces-update.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_xerces/EP_xerces-patch.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_xerces/EP_xerces-configure.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_xerces/EP_xerces-build.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_xerces/EP_xerces-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_xerces"
+		],
+		"name" : "EP_xerces"
+	}
+}

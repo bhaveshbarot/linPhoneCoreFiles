@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_srtp"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_srtp.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_srtp-complete.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_srtp/EP_srtp-install.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_srtp/EP_srtp-mkdir.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_srtp/EP_srtp-download.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_srtp/EP_srtp-update.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_srtp/EP_srtp-patch.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_srtp/EP_srtp-configure.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_srtp/EP_srtp-build.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_srtp/EP_srtp-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_srtp"
+		],
+		"name" : "EP_srtp"
+	}
+}

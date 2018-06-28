@@ -1,0 +1,14 @@
+# Target labels
+ EP_ortp
+# Source files and their labels
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_ortp
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_ortp.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_ortp-complete.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_ortp/EP_ortp-install.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_ortp/EP_ortp-mkdir.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_ortp/EP_ortp-download.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_ortp/EP_ortp-update.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_ortp/EP_ortp-patch.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_ortp/EP_ortp-configure.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_ortp/EP_ortp-build.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_ortp/EP_ortp-force_build.rule

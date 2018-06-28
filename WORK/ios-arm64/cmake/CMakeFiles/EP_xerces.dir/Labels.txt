@@ -1,0 +1,14 @@
+# Target labels
+ EP_xerces
+# Source files and their labels
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_xerces
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_xerces.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_xerces-complete.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_xerces/EP_xerces-install.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_xerces/EP_xerces-mkdir.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_xerces/EP_xerces-download.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_xerces/EP_xerces-update.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_xerces/EP_xerces-patch.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_xerces/EP_xerces-configure.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_xerces/EP_xerces-build.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_xerces/EP_xerces-force_build.rule

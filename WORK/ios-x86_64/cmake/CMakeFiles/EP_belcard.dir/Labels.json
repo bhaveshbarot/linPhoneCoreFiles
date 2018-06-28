@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_belcard"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_belcard.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_belcard-complete.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_belcard/EP_belcard-install.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_belcard/EP_belcard-mkdir.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_belcard/EP_belcard-download.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_belcard/EP_belcard-update.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_belcard/EP_belcard-patch.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_belcard/EP_belcard-configure.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_belcard/EP_belcard-build.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_belcard/EP_belcard-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_belcard"
+		],
+		"name" : "EP_belcard"
+	}
+}

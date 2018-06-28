@@ -1,0 +1,14 @@
+# Target labels
+ EP_opus
+# Source files and their labels
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_opus
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_opus.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_opus-complete.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_opus/EP_opus-install.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_opus/EP_opus-mkdir.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_opus/EP_opus-download.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_opus/EP_opus-update.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_opus/EP_opus-patch.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_opus/EP_opus-configure.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_opus/EP_opus-build.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_opus/EP_opus-force_build.rule

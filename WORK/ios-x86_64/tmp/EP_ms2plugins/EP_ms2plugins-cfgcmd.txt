@@ -1,0 +1,1 @@
+cmd='/usr/local/Cellar/cmake/3.11.0/bin/cmake;-E;echo'

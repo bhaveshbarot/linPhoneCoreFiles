@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_turbo-jpeg"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_turbo-jpeg.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_turbo-jpeg-complete.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-install.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-mkdir.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-download.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-update.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-patch.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-configure.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-build.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_turbo-jpeg/EP_turbo-jpeg-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_turbo-jpeg"
+		],
+		"name" : "EP_turbo-jpeg"
+	}
+}

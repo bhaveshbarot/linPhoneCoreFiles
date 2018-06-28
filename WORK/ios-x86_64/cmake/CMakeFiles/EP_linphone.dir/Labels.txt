@@ -1,0 +1,14 @@
+# Target labels
+ EP_linphone
+# Source files and their labels
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_linphone
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_linphone.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/cmake/CMakeFiles/EP_linphone-complete.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_linphone/EP_linphone-install.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_linphone/EP_linphone-mkdir.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_linphone/EP_linphone-download.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_linphone/EP_linphone-update.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_linphone/EP_linphone-patch.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_linphone/EP_linphone-configure.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_linphone/EP_linphone-build.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Stamp/EP_linphone/EP_linphone-force_build.rule

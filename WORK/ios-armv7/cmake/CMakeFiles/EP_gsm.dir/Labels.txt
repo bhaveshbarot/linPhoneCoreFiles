@@ -1,0 +1,14 @@
+# Target labels
+ EP_gsm
+# Source files and their labels
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_gsm
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_gsm.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_gsm-complete.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_gsm/EP_gsm-install.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_gsm/EP_gsm-mkdir.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_gsm/EP_gsm-download.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_gsm/EP_gsm-update.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_gsm/EP_gsm-patch.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_gsm/EP_gsm-configure.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_gsm/EP_gsm-build.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_gsm/EP_gsm-force_build.rule

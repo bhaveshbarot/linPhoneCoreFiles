@@ -1,0 +1,14 @@
+# Target labels
+ EP_belr
+# Source files and their labels
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_belr
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_belr.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_belr-complete.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_belr/EP_belr-install.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_belr/EP_belr-mkdir.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_belr/EP_belr-download.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_belr/EP_belr-update.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_belr/EP_belr-patch.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_belr/EP_belr-configure.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_belr/EP_belr-build.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_belr/EP_belr-force_build.rule

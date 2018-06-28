@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_ortp"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_ortp.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/CMakeFiles/EP_ortp-complete.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_ortp/EP_ortp-install.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_ortp/EP_ortp-mkdir.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_ortp/EP_ortp-download.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_ortp/EP_ortp-update.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_ortp/EP_ortp-patch.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_ortp/EP_ortp-configure.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_ortp/EP_ortp-build.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Stamp/EP_ortp/EP_ortp-force_build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_ortp"
+		],
+		"name" : "EP_ortp"
+	}
+}

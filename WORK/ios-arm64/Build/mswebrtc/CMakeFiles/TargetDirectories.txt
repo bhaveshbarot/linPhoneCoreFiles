@@ -1,0 +1,8 @@
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/mswebrtc/CMakeFiles/install/local.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/mswebrtc/CMakeFiles/install.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/mswebrtc/CMakeFiles/list_install_components.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/mswebrtc/CMakeFiles/package.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/mswebrtc/CMakeFiles/package_source.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/mswebrtc/CMakeFiles/rebuild_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/mswebrtc/CMakeFiles/edit_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/mswebrtc/CMakeFiles/mswebrtc.dir

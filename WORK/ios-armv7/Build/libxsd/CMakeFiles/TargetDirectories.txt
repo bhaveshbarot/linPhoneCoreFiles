@@ -1,0 +1,5 @@
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/libxsd/CMakeFiles/install/local.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/libxsd/CMakeFiles/install.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/libxsd/CMakeFiles/list_install_components.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/libxsd/CMakeFiles/rebuild_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/libxsd/CMakeFiles/edit_cache.dir

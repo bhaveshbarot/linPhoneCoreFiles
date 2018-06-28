@@ -1,0 +1,320 @@
+# /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/libvpx/configure --prefix=/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/liblinphone-sdk/x86_64-apple-darwin.ios --target=x86_64-iphonesimulator-gcc --prefix=/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/liblinphone-sdk/x86_64-apple-darwin.ios --target=x86_64-iphonesimulator-gcc --enable-static --disable-shared --enable-error-concealment --enable-multithread --enable-realtime-only --enable-spatial-resampling --enable-vp8 --disable-vp9 --enable-libs --disable-install-docs --disable-debug-libs --disable-examples --disable-unit-tests --as=yasm
+Configuring selected codecs
+Configuring for target 'x86_64-iphonesimulator-gcc'
+  enabling x86_64
+check_cpp
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	#if !defined(__ILP32__) || !defined(__x86_64__)
+     2	#error "not x32"
+     3	#endif
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -E -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c:2:2: error: "not x32"
+#error "not x32"
+ ^
+1 error generated.
+  enabling runtime_cpu_detect
+check_cflags -mmmx
+check_cc -Werror -mmmx
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -Werror -mmmx -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling mmx
+check_cflags -msse
+check_cc -Werror -msse
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -Werror -msse -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling sse
+check_cflags -msse2
+check_cc -Werror -msse2
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -Werror -msse2 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling sse2
+check_cflags -msse3
+check_cc -Werror -msse3
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -Werror -msse3 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling sse3
+check_cflags -mssse3
+check_cc -Werror -mssse3
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -Werror -mssse3 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling ssse3
+check_cflags -msse4
+check_cc -Werror -msse4
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -Werror -msse4 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling sse4_1
+check_cflags -mavx
+check_cc -Werror -mavx
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -Werror -mavx -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling avx
+check_cflags -mavx2
+check_cc -Werror -mavx2
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -Werror -mavx2 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling avx2
+  using yasm
+Warning: Bitcode embed disabled for simulator targets.
+check_cxxflags -DNDEBUG
+check_cxx -Werror -DNDEBUG
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -Werror -DNDEBUG -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -DNDEBUG
+check_cc -Werror -DNDEBUG
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -Werror -DNDEBUG -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -O3
+check_cxx -Werror -O3
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -Werror -O3 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -O3
+check_cc -Werror -O3
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -Werror -O3 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling use_x86inc
+check_cc
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	unsigned int e = 'O'<<24 | '2'<<16 | 'B'<<8 | 'E';
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cc
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	static inline function() {}
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c:1:15: warning: type specifier missing, defaults to 'int' [-Wimplicit-int]
+static inline function() {}
+~~~~~~~~~~~~~ ^
+/var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c:1:27: warning: control reaches end of non-void function [-Wreturn-type]
+static inline function() {}
+                          ^
+2 warnings generated.
+check_header pthread.h
+check_cpp
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	#include "pthread.h"
+     2	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -E -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wall
+check_cxx -Werror -Wall
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Werror -Wall -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wall
+check_cc -Werror -Wall
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Werror -Wall -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wdeclaration-after-statement
+check_cxx -Werror -Wdeclaration-after-statement
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Werror -Wdeclaration-after-statement -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wdeclaration-after-statement
+check_cc -Werror -Wdeclaration-after-statement
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Werror -Wdeclaration-after-statement -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wdisabled-optimization
+check_cxx -Werror -Wdisabled-optimization
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Werror -Wdisabled-optimization -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wdisabled-optimization
+check_cc -Werror -Wdisabled-optimization
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Werror -Wdisabled-optimization -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wpointer-arith
+check_cxx -Werror -Wpointer-arith
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Werror -Wpointer-arith -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wpointer-arith
+check_cc -Werror -Wpointer-arith
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Werror -Wpointer-arith -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wtype-limits
+check_cxx -Werror -Wtype-limits
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Werror -Wtype-limits -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wtype-limits
+check_cc -Werror -Wtype-limits
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Werror -Wtype-limits -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wcast-qual
+check_cxx -Werror -Wcast-qual
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Werror -Wcast-qual -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wcast-qual
+check_cc -Werror -Wcast-qual
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Werror -Wcast-qual -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wvla
+check_cxx -Werror -Wvla
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Werror -Wvla -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wvla
+check_cc -Werror -Wvla
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Werror -Wvla -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wimplicit-function-declaration
+check_cxx -Werror -Wimplicit-function-declaration
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wimplicit-function-declaration -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wimplicit-function-declaration
+check_cc -Werror -Wimplicit-function-declaration
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Werror -Wimplicit-function-declaration -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wuninitialized
+check_cxx -Werror -Wuninitialized
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Werror -Wuninitialized -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wuninitialized
+check_cc -Werror -Wuninitialized
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Werror -Wuninitialized -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wunused-variable
+check_cxx -Werror -Wunused-variable
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Werror -Wunused-variable -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wunused-variable
+check_cc -Werror -Wunused-variable
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Werror -Wunused-variable -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -fno-strict-aliasing
+check_cxx -Werror -fno-strict-aliasing
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Werror -fno-strict-aliasing -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -fno-strict-aliasing
+check_cc -Werror -fno-strict-aliasing
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -Werror -fno-strict-aliasing -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_cxxflags -Wno-unused-function
+check_cxx -Werror -Wno-unused-function
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Werror -Wno-unused-function -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.cc
+check_cflags -Wno-unused-function
+check_cc -Werror -Wno-unused-function
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Werror -Wno-unused-function -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+  enabling postproc
+  enabling webm_io
+  enabling libyuv
+check_header stdio.h
+check_cpp
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	#include "stdio.h"
+     2	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_ld
+check_cc
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	int main(void) {return 0;}
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -c -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.x /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o -lpthread
+clang: warning: libstdc++ is deprecated; move to libc++ with a minimum deployment target of iOS 7 [-Wdeprecated]
+check_header stdint.h
+check_cpp
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	#include "stdint.h"
+     2	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_header pthread.h
+check_cpp
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	#include "pthread.h"
+     2	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_header sys/mman.h
+check_cpp
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	#include "sys/mman.h"
+     2	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_header unistd.h
+check_cpp
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	#include "unistd.h"
+     2	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -E -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+check_header vpx/vpx_integer.h -I/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/libvpx
+check_cpp -I/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/libvpx
+BEGIN /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+     1	#include "vpx/vpx_integer.h"
+     2	int x;
+END /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -miphoneos-version-min=6.0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk -m64 -arch x86_64 -DNDEBUG -O3 -Wall -Wdeclaration-after-statement -Wdisabled-optimization -Wpointer-arith -Wtype-limits -Wcast-qual -Wvla -Wimplicit-function-declaration -Wuninitialized -Wunused-variable -fno-strict-aliasing -Wno-unused-function -I/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/libvpx -E -o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.o /var/folders/sl/mdfq7_n54g76rzq4jsz1jvbm0000gp/T//vpx-conf-5457-20861.c

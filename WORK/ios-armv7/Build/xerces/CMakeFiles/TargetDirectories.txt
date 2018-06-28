@@ -1,0 +1,11 @@
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/install/local.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/install.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/list_install_components.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/rebuild_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/edit_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/src/CMakeFiles/install/local.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/src/CMakeFiles/install.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/src/CMakeFiles/list_install_components.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/src/CMakeFiles/rebuild_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/src/CMakeFiles/edit_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/src/CMakeFiles/xerces-c-static.dir

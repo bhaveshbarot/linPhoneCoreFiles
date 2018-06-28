@@ -1,0 +1,2 @@
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/liblinphone-sdk/armv7-apple-darwin.ios/Frameworks/mswebrtc.framework/mswebrtc
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/liblinphone-sdk/armv7-apple-darwin.ios/Frameworks/mswebrtc.framework/Info.plist

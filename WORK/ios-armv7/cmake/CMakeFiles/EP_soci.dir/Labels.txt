@@ -1,0 +1,14 @@
+# Target labels
+ EP_soci
+# Source files and their labels
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_soci
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_soci.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_soci-complete.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_soci/EP_soci-install.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_soci/EP_soci-mkdir.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_soci/EP_soci-download.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_soci/EP_soci-update.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_soci/EP_soci-patch.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_soci/EP_soci-configure.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_soci/EP_soci-build.rule
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_soci/EP_soci-force_build.rule

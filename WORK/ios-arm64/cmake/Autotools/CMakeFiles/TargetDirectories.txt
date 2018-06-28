@@ -1,0 +1,2 @@
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/Autotools/CMakeFiles/rebuild_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/cmake/Autotools/CMakeFiles/edit_cache.dir

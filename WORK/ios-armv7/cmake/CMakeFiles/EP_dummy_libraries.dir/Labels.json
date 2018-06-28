@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_dummy_libraries"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_dummy_libraries.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/cmake/CMakeFiles/EP_dummy_libraries-complete.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_dummy_libraries/EP_dummy_libraries-install.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_dummy_libraries/EP_dummy_libraries-mkdir.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_dummy_libraries/EP_dummy_libraries-download.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_dummy_libraries/EP_dummy_libraries-update.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_dummy_libraries/EP_dummy_libraries-patch.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_dummy_libraries/EP_dummy_libraries-configure.rule"
+		},
+		{
+			"file" : "/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Stamp/EP_dummy_libraries/EP_dummy_libraries-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"EP_dummy_libraries"
+		],
+		"name" : "EP_dummy_libraries"
+	}
+}

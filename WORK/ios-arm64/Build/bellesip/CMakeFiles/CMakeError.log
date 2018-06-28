@@ -1,0 +1,61 @@
+Determining if the function clock_gettime exists in the rt failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_def27/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_def27.dir/build.make CMakeFiles/cmTC_def27.dir/build
+Building C object CMakeFiles/cmTC_def27.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_def27.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_def27
+/usr/local/Cellar/cmake/3.11.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_def27.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin  -DCHECK_FUNCTION_EXISTS=clock_gettime -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_def27.dir/CheckFunctionExists.c.o  -o cmTC_def27 -lrt 
+ld: library not found for -lrt
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_def27] Error 1
+make[4]: *** [cmTC_def27/fast] Error 2
+
+
+Determining if the include file malloc.h exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f83ac/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_f83ac.dir/build.make CMakeFiles/cmTC_f83ac.dir/build
+Building C object CMakeFiles/cmTC_f83ac.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_f83ac.dir/CheckIncludeFile.c.o   -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'malloc.h' file not found
+#include <malloc.h>
+         ^~~~~~~~~~
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_f83ac.dir/CheckIncludeFile.c.o] Error 1
+make[4]: *** [cmTC_f83ac/fast] Error 2
+
+
+Determining if the include file socket.h exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b443/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9b443.dir/build.make CMakeFiles/cmTC_9b443.dir/build
+Building C object CMakeFiles/cmTC_9b443.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_9b443.dir/CheckIncludeFile.c.o   -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'socket.h' file not found
+#include <socket.h>
+         ^~~~~~~~~~
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_9b443.dir/CheckIncludeFile.c.o] Error 1
+make[4]: *** [cmTC_9b443/fast] Error 2
+
+
+Determining if the include file sys/malloc.h exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ef39/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_9ef39.dir/build.make CMakeFiles/cmTC_9ef39.dir/build
+Building C object CMakeFiles/cmTC_9ef39.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=arm64-apple-darwin   -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_9ef39.dir/CheckIncludeFile.c.o   -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-arm64/Build/bellesip/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'sys/malloc.h' file not found
+#include <sys/malloc.h>
+         ^~~~~~~~~~~~~~
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_9ef39.dir/CheckIncludeFile.c.o] Error 1
+make[4]: *** [cmTC_9ef39/fast] Error 2
+
+

@@ -1,0 +1,6 @@
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/turbo-jpeg/CMakeFiles/install/local.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/turbo-jpeg/CMakeFiles/install.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/turbo-jpeg/CMakeFiles/turbojpeg-static.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/turbo-jpeg/CMakeFiles/list_install_components.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/turbo-jpeg/CMakeFiles/rebuild_cache.dir
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/turbo-jpeg/CMakeFiles/edit_cache.dir

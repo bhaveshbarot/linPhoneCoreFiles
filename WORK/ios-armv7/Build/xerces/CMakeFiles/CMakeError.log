@@ -1,0 +1,269 @@
+Determining if the include file CoreServices/CoreServices.h exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8e721/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8e721.dir/build.make CMakeFiles/cmTC_8e721.dir/build
+Building C object CMakeFiles/cmTC_8e721.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_8e721.dir/CheckIncludeFile.c.o   -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'CoreServices/CoreServices.h' file not found
+#include <CoreServices/CoreServices.h>
+         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_8e721.dir/CheckIncludeFile.c.o] Error 1
+make[4]: *** [cmTC_8e721/fast] Error 2
+
+
+Determining if the include file cpuid.h exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_79a91/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_79a91.dir/build.make CMakeFiles/cmTC_79a91.dir/build
+Building C object CMakeFiles/cmTC_79a91.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_79a91.dir/CheckIncludeFile.c.o   -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include/cpuid.h:25:2: error: this header is for x86 only
+#error this header is for x86 only
+ ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include/cpuid.h:262:5: error: invalid output constraint '=a' in asm
+    __cpuid(__leaf, __eax, __ebx, __ecx, __edx);
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include/cpuid.h:227:11: note: expanded from macro '__cpuid'
+        : "=a"(__eax), "=r" (__ebx), "=c"(__ecx), "=d"(__edx) \
+          ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include/cpuid.h:277:5: error: invalid output constraint '=a' in asm
+    __cpuid(__leaf, *__eax, *__ebx, *__ecx, *__edx);
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include/cpuid.h:227:11: note: expanded from macro '__cpuid'
+        : "=a"(__eax), "=r" (__ebx), "=c"(__ecx), "=d"(__edx) \
+          ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include/cpuid.h:291:5: error: invalid output constraint '=a' in asm
+    __cpuid_count(__leaf, __subleaf, *__eax, *__ebx, *__ecx, *__edx);
+    ^
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/include/cpuid.h:234:11: note: expanded from macro '__cpuid_count'
+        : "=a"(__eax), "=r" (__ebx), "=c"(__ecx), "=d"(__edx) \
+          ^
+4 errors generated.
+make[5]: *** [CMakeFiles/cmTC_79a91.dir/CheckIncludeFile.c.o] Error 1
+make[4]: *** [cmTC_79a91/fast] Error 2
+
+
+Determining if the include file winsock2.h exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0c906/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0c906.dir/build.make CMakeFiles/cmTC_0c906.dir/build
+Building C object CMakeFiles/cmTC_0c906.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_0c906.dir/CheckIncludeFile.c.o   -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:10: fatal error: 'winsock2.h' file not found
+#include <winsock2.h>
+         ^~~~~~~~~~~~
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_0c906.dir/CheckIncludeFile.c.o] Error 1
+make[4]: *** [cmTC_0c906/fast] Error 2
+
+
+Determining if the function stricmp exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8a1c1/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_8a1c1.dir/build.make CMakeFiles/cmTC_8a1c1.dir/build
+Building C object CMakeFiles/cmTC_8a1c1.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -DCHECK_FUNCTION_EXISTS=stricmp -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_8a1c1.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8a1c1
+/usr/local/Cellar/cmake/3.11.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8a1c1.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin  -DCHECK_FUNCTION_EXISTS=stricmp -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_8a1c1.dir/CheckFunctionExists.c.o  -o cmTC_8a1c1 
+Undefined symbols for architecture armv7:
+  "_stricmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture armv7
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_8a1c1] Error 1
+make[4]: *** [cmTC_8a1c1/fast] Error 2
+
+
+Determining if the function strnicmp exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_54a7f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_54a7f.dir/build.make CMakeFiles/cmTC_54a7f.dir/build
+Building C object CMakeFiles/cmTC_54a7f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -DCHECK_FUNCTION_EXISTS=strnicmp -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_54a7f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_54a7f
+/usr/local/Cellar/cmake/3.11.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54a7f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin  -DCHECK_FUNCTION_EXISTS=strnicmp -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_54a7f.dir/CheckFunctionExists.c.o  -o cmTC_54a7f 
+Undefined symbols for architecture armv7:
+  "_strnicmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture armv7
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_54a7f] Error 1
+make[4]: *** [cmTC_54a7f/fast] Error 2
+
+
+Determining if the function wcsupr exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5516/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_a5516.dir/build.make CMakeFiles/cmTC_a5516.dir/build
+Building C object CMakeFiles/cmTC_a5516.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -DCHECK_FUNCTION_EXISTS=wcsupr -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_a5516.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a5516
+/usr/local/Cellar/cmake/3.11.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5516.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin  -DCHECK_FUNCTION_EXISTS=wcsupr -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_a5516.dir/CheckFunctionExists.c.o  -o cmTC_a5516 
+Undefined symbols for architecture armv7:
+  "_wcsupr", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture armv7
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_a5516] Error 1
+make[4]: *** [cmTC_a5516/fast] Error 2
+
+
+Determining if the function wcslwr exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c128b/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_c128b.dir/build.make CMakeFiles/cmTC_c128b.dir/build
+Building C object CMakeFiles/cmTC_c128b.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -DCHECK_FUNCTION_EXISTS=wcslwr -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_c128b.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c128b
+/usr/local/Cellar/cmake/3.11.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c128b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin  -DCHECK_FUNCTION_EXISTS=wcslwr -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_c128b.dir/CheckFunctionExists.c.o  -o cmTC_c128b 
+Undefined symbols for architecture armv7:
+  "_wcslwr", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture armv7
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_c128b] Error 1
+make[4]: *** [cmTC_c128b/fast] Error 2
+
+
+Determining if the function wcsnicmp exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e668f/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_e668f.dir/build.make CMakeFiles/cmTC_e668f.dir/build
+Building C object CMakeFiles/cmTC_e668f.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -DCHECK_FUNCTION_EXISTS=wcsnicmp -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_e668f.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_e668f
+/usr/local/Cellar/cmake/3.11.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e668f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin  -DCHECK_FUNCTION_EXISTS=wcsnicmp -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_e668f.dir/CheckFunctionExists.c.o  -o cmTC_e668f 
+Undefined symbols for architecture armv7:
+  "_wcsnicmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture armv7
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_e668f] Error 1
+make[4]: *** [cmTC_e668f/fast] Error 2
+
+
+Determining if the function wcsicmp exists failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_043f3/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_043f3.dir/build.make CMakeFiles/cmTC_043f3.dir/build
+Building C object CMakeFiles/cmTC_043f3.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -DCHECK_FUNCTION_EXISTS=wcsicmp -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_043f3.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.11.0/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_043f3
+/usr/local/Cellar/cmake/3.11.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_043f3.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin  -DCHECK_FUNCTION_EXISTS=wcsicmp -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_043f3.dir/CheckFunctionExists.c.o  -o cmTC_043f3 
+Undefined symbols for architecture armv7:
+  "_wcsicmp", referenced from:
+      _main in CheckFunctionExists.c.o
+ld: symbol(s) not found for architecture armv7
+clang: error: linker command failed with exit code 1 (use -v to see invocation)
+make[5]: *** [cmTC_043f3] Error 1
+make[4]: *** [cmTC_043f3/fast] Error 2
+
+
+Determining size of __int64 failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f635/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_6f635.dir/build.make CMakeFiles/cmTC_6f635.dir/build
+Building C object CMakeFiles/cmTC_6f635.dir/SIZEOF___INT64.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang --target=armv7-apple-darwin   -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -o CMakeFiles/cmTC_6f635.dir/SIZEOF___INT64.c.o   -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:26:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 10000)%10)),
+           ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:27:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 1000)%10)),
+           ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:28:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 100)%10)),
+           ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:29:12: error: use of undeclared identifier '__int64'
+  ('0' + ((SIZE / 10)%10)),
+           ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:30:12: error: use of undeclared identifier '__int64'
+  ('0' +  (SIZE    % 10)),
+           ^
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:24:22: note: expanded from macro 'SIZE'
+#define SIZE (sizeof(__int64))
+                     ^
+5 errors generated.
+make[5]: *** [CMakeFiles/cmTC_6f635.dir/SIZEOF___INT64.c.o] Error 1
+make[4]: *** [cmTC_6f635/fast] Error 2
+
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/xerces/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "stdint.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+

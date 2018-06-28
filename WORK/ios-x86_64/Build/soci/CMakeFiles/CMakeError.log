@@ -1,0 +1,73 @@
+Determining if the __i386__ exist failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_02b37/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_02b37.dir/build.make CMakeFiles/cmTC_02b37.dir/build
+Building CXX object CMakeFiles/cmTC_02b37.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ --target=x86_64-apple-darwin    -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk   -o CMakeFiles/cmTC_02b37.dir/CheckSymbolExists.cxx.o -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:7:19: error: use of undeclared identifier '__i386__'
+  return ((int*)(&__i386__))[argc];
+                  ^
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_02b37.dir/CheckSymbolExists.cxx.o] Error 1
+make[4]: *** [cmTC_02b37/fast] Error 2
+
+File /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __i386__
+  return ((int*)(&__i386__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the __arm__ exist failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bc5a6/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_bc5a6.dir/build.make CMakeFiles/cmTC_bc5a6.dir/build
+Building CXX object CMakeFiles/cmTC_bc5a6.dir/CheckSymbolExists.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ --target=x86_64-apple-darwin    -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk   -o CMakeFiles/cmTC_bc5a6.dir/CheckSymbolExists.cxx.o -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:7:19: error: use of undeclared identifier '__arm__'
+  return ((int*)(&__arm__))[argc];
+                  ^
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_bc5a6.dir/CheckSymbolExists.cxx.o] Error 1
+make[4]: *** [cmTC_bc5a6/fast] Error 2
+
+File /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+/* */
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef __arm__
+  return ((int*)(&__arm__))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C++ SOURCE FILE Test HAVE_MYSQL_OPT_EMBEDDED_CONNECTION failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ed80d/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_ed80d.dir/build.make CMakeFiles/cmTC_ed80d.dir/build
+Building CXX object CMakeFiles/cmTC_ed80d.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ --target=x86_64-apple-darwin    -pedantic -Werror -Wno-error=parentheses -Wall -Wextra -Wpointer-arith -Wcast-align -Wcast-qual -Wfloat-equal -Woverloaded-virtual -Wredundant-decls -Wno-long-long -std=c++11 -DHAVE_MYSQL_OPT_EMBEDDED_CONNECTION -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator11.3.sdk   -o CMakeFiles/cmTC_ed80d.dir/src.cxx.o -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp/src.cxx
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-x86_64/Build/soci/CMakeFiles/CMakeTmp/src.cxx:1:10: fatal error: 'mysql.h' file not found
+#include <mysql.h>
+         ^~~~~~~~~
+1 error generated.
+make[5]: *** [CMakeFiles/cmTC_ed80d.dir/src.cxx.o] Error 1
+make[4]: *** [cmTC_ed80d/fast] Error 2
+
+Source file was:
+#include <mysql.h>
+int main() { int i = MYSQL_OPT_USE_EMBEDDED_CONNECTION; }

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/xerces-c/src/stricmp.c
+stricmp.h
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/xerces-c/src/stricmp.h
+config.h
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/xerces-c/src/config.h
+string.h
+-
+strings.h
+-
+
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/xerces-c/src/stricmp.h
+
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/xerces-c/src/strnicmp.c
+strnicmp.h
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/xerces-c/src/strnicmp.h
+config.h
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/xerces-c/src/config.h
+string.h
+-
+strings.h
+-
+
+/Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/submodules/externals/xerces-c/src/strnicmp.h
+stddef.h
+-
+
+config.h
+

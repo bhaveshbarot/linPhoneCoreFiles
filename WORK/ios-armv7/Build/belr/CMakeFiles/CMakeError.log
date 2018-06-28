@@ -1,0 +1,15 @@
+Performing C++ SOURCE FILE Test SUGGEST_OVERRIDE failed with the following output:
+Change Dir: /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/belr/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0445e/fast"
+/Applications/Xcode.app/Contents/Developer/usr/bin/make -f CMakeFiles/cmTC_0445e.dir/build.make CMakeFiles/cmTC_0445e.dir/build
+Building CXX object CMakeFiles/cmTC_0445e.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ --target=armv7-apple-darwin    -DSUGGEST_OVERRIDE -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk   -Wsuggest-override -o CMakeFiles/cmTC_0445e.dir/src.cxx.o -c /Users/bhavesh/Desktop/LinphoneV4/linphone-iphone/WORK/ios-armv7/Build/belr/CMakeFiles/CMakeTmp/src.cxx
+warning: unknown warning option '-Wsuggest-override'; did you mean '-Wshift-overflow'? [-Wunknown-warning-option]
+1 warning generated.
+Linking CXX executable cmTC_0445e
+/usr/local/Cellar/cmake/3.11.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0445e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ --target=armv7-apple-darwin   -DSUGGEST_OVERRIDE -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_0445e.dir/src.cxx.o  -o cmTC_0445e 
+
+Source file was:
+int main() { return 0; }
